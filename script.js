@@ -76,7 +76,7 @@ function detectBlow() {
                         flame.setAttribute('visibility', 'visible'); // Fallback
                         blowDetected = false; // Allow blowing again
                         blowStartTime = null; // Reset blow timing
-                    }, 2000); // 2 seconds delay
+                    }, 5000); // 2 seconds delay
                 }
             }
         }
